@@ -1,2 +1,2 @@
 # githabit
-Github style habit tracker
+githabit is a github styled habit tracker. 
