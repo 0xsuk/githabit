@@ -1,0 +1,8 @@
+#wrapper {
+}
+
+svg.react-calendar-heatmap {
+  display: block;
+  margin: auto;
+  max-width: 900px;
+}
