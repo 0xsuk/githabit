@@ -31,6 +31,8 @@ do not modify any other cell
 ![Screenshot from 2022-08-31 08-51-16](https://user-images.githubusercontent.com/97814789/187563861-6bb9f1f1-48a0-45f9-a32c-62822ffdf37a.png)
 - Select type "web app", set Executed as "Me", set Who has access "Anyone". Then Deploy.
 ![image](https://user-images.githubusercontent.com/97814789/187563825-f06d63ff-a245-464c-bc39-3becb8c68509.png)
+- Warning will be displayed because Google don't trust my code. click "Advanced", and click "name of your script (unsafe)" to allow deploy
+![image](https://user-images.githubusercontent.com/97814789/187573633-7bd7a471-6641-4a92-9130-38705ec4cd68.png)
 - Copy Web App URL  
 ![image](https://user-images.githubusercontent.com/97814789/187564133-209404c7-fdac-4220-bd0e-a31073c40837.png)
 
