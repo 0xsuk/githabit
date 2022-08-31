@@ -58,4 +58,4 @@ You should now be able to see Login screen at https://${username}.github.io/gith
 technical details
 - Cell A3 is used as session ID storage.
 - Unfortunately, Google Apps Script cannot get http request headers, meaning githabit frontend can't send session ID as cookie in request headers. Hence githabit sends session ID in post body data. 
-- session ID is supposed to stored in localStorage not in cookie storage, and it never expires.
+- session ID is supposed to stored in localStorage not in cookie storage, and it never expires. Not the best practice, but this is because githabit is not security focused. 
