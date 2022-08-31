@@ -2,7 +2,11 @@
   "name": "githabit",
   "start_url": "/githabit",
   "display": "standalone",
-  "icons": {
-    "500": "githabit.png"
-  }
+  "icons": [
+    {
+      "src": "images/githabit.png",
+      "type": "image/png",
+      "sizes": "500x500"
+    }
+  ]
 }
