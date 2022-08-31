@@ -1,12 +1,16 @@
-# githabit
-githabit is a github styled habit tracker website/PWA(Progressive Web App) that anyone can host by utilizing github pages and google spread sheet.
+<p align="center">
+    <img align="center" src="https://user-images.githubusercontent.com/97814789/187679937-b17b5b90-8d8c-4caf-a814-b1ca5ec0d9d1.png" width="200" height="200" >
+    <h1 align="center">githabit</h1>
+    <p align="center">Github styled habit tracker PWA(Progressive Web App)</p>
+</p>
 
-![image](https://user-images.githubusercontent.com/97814789/187569461-ec228b93-6eb0-4aab-8c30-ca026e34e90f.png)
 
 ## Concept
 - Keep following a single habit. Not multiple, human can't handle it.
 - Just Yay/Nay. "How much" does not matter, doing matters. 
 - Feel the grass
+
+![image](https://user-images.githubusercontent.com/97814789/187569461-ec228b93-6eb0-4aab-8c30-ca026e34e90f.png)
 
 ## How it works
 ![image](https://user-images.githubusercontent.com/97814789/187274225-d46fd408-c731-4e18-b8fe-cfa23a66f862.png)
