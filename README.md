@@ -1,5 +1,5 @@
 # githabit
-githabit is a github styled habit tracker website that anyone can host by utilizing github pages and google spread sheet.
+githabit is a github styled habit tracker website/PWA(Progressive Web App) that anyone can host by utilizing github pages and google spread sheet.
 
 ![image](https://user-images.githubusercontent.com/97814789/187569461-ec228b93-6eb0-4aab-8c30-ca026e34e90f.png)
 
@@ -50,6 +50,10 @@ do not modify any other cell
 
 You should now be able to see Login screen at https://${username}.github.io/githabit
 
+
+### optional: Add githabit to home screen
+Open browser in your smartphone, and add https://..../githabit to your home screen. It works as it was native mobile app.
+
 ## Usage
 - Type password you set in the spreadsheet in order to login. 
 - Click Yay to mark habit as done
@@ -59,9 +63,4 @@ You should now be able to see Login screen at https://${username}.github.io/gith
 technical details
 - Cell A3 is used as session ID storage.
 - Unfortunately, Google Apps Script cannot get http request headers, meaning githabit frontend can't send session ID as cookie in request headers. Hence githabit sends session ID in post body data. 
-<<<<<<< HEAD
-- session ID is supposed to stored in localStorage not in cookie storage, and it never expires. Not the best practice, but this is because githabit is not security focused. 
-=======
-- session ID is supposed to stored in localStorage not in cookie storage, and it never expires.
-- some requests might fail due to CORS policy enforced by google. If fail, take a time, and come back again. It might work. This is a google thing.
->>>>>>> 478be5a9dfe50c38e78ff75b68b5dbdf7c5efc0a
+- some requests might fail due to CORS policy enforced by google. If fail, take a time, and come back again. It might work. That's a google thing.
