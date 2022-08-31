@@ -1,2 +1,2 @@
 export const GASAPI =
-  "https://script.google.com/macros/s/AKfycbwysLouE1SeYdS9PrmXrWUOj1pdC5XrWzqr8aPLrFFw2JLWFNSNPgGB84BRJMjD2Vy2Aw/exec";
+  "https://script.google.com/macros/s/AKfycbw2IIz6jEAn6sDk2jhDWwIaKPBAF9vIaXqObEh2Z_atug9L1EFW4Qa8W_11fA9zWAPNIA/exec";
