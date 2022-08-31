@@ -60,3 +60,4 @@ technical details
 - Cell A3 is used as session ID storage.
 - Unfortunately, Google Apps Script cannot get http request headers, meaning githabit frontend can't send session ID as cookie in request headers. Hence githabit sends session ID in post body data. 
 - session ID is supposed to stored in localStorage not in cookie storage, and it never expires.
+- some requests might fail due to CORS policy enforced by google. If fail, take a time, and come back again. It might work. This is a google thing.
