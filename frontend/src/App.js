@@ -54,7 +54,7 @@ function App() {
   }
 
   return (
-    <div id="wrapper">
+    <>
       <h1>githabit</h1>
       <div>
         <p>{habit}</p>
@@ -78,7 +78,7 @@ function App() {
           return "color-empty";
         }}
       />
-    </div>
+    </>
   );
 }
 
