@@ -1,7 +1,7 @@
 # githabit
 githabit is a github styled habit tracker website that anyone can host by utilizing github pages and google spread sheet.
 
-![image](https://user-images.githubusercontent.com/97814789/187536466-84ed0391-4ae8-4fac-8aad-6bc2a9f63ad8.png)
+![image](https://user-images.githubusercontent.com/97814789/187569461-ec228b93-6eb0-4aab-8c30-ca026e34e90f.png)
 
 ## Concept
 - Keep following a single habit. Not multiple, human can't handle it.
@@ -39,7 +39,6 @@ do not modify any other cell
 ### 5. Fire Github Workflow
 - Go to Actions tab in your forked repo, and run workflow manually to deploy githabit to Github Pages
 ![Screenshot from 2022-08-31 08-39-41](https://user-images.githubusercontent.com/97814789/187564602-2fd68f3a-6eaa-41d3-85ff-78ae004f6a42.png)
-and run workflow manually
 - Wait until deployment finishes. Once deployed, gh-pages branch should be created.
 
 ### 6. Enable Github Pages
