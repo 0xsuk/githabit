@@ -128,8 +128,11 @@ function handleLogin(data) {
     return genJsonResponse({ error: "invalid login" });
   }
 
-  const sid = genSid();
-  sheet.getRange(sidCell).setValue(sid);
+  let sid = sheet.getRange(sidCell).getValue();
+  if (!sid) {
+    sid = genSid();
+    sheet.getRange(sidCell).setValue(sid);
+  }
   return genJsonResponse({ data: sid });
 }
 function genJsonResponse(obj) {
