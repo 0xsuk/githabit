@@ -1,3 +1,6 @@
+* {
+  overflow: hidden;
+}
 body {
   margin: 0;
   width: 100vw;
@@ -5,8 +8,12 @@ body {
   background: #0d1117;
   color: #c9d1d9;
   text-align: center;
-  overflow: hidden;
 }
+
+#wrapper {
+  margin: 20px;
+}
+
 svg.react-calendar-heatmap {
   display: block;
   margin: auto;
