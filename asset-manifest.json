@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/githabit/static/css/main.61f81bc4.css",
-    "main.js": "/githabit/static/js/main.c6111907.js",
+    "main.js": "/githabit/static/js/main.1163aa38.js",
     "index.html": "/githabit/index.html",
     "main.61f81bc4.css.map": "/githabit/static/css/main.61f81bc4.css.map",
-    "main.c6111907.js.map": "/githabit/static/js/main.c6111907.js.map"
+    "main.1163aa38.js.map": "/githabit/static/js/main.1163aa38.js.map"
   },
   "entrypoints": [
     "static/css/main.61f81bc4.css",
-    "static/js/main.c6111907.js"
+    "static/js/main.1163aa38.js"
   ]
 }
