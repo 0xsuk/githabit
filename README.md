@@ -1,7 +1,7 @@
 # githabit
 githabit is a github styled habit tracker website that anyone can host by utilizing github pages and google spread sheet.
 
-![image](https://user-images.githubusercontent.com/97814789/187536466-84ed0391-4ae8-4fac-8aad-6bc2a9f63ad8.png)
+![image](https://user-images.githubusercontent.com/97814789/187569461-ec228b93-6eb0-4aab-8c30-ca026e34e90f.png)
 
 ## Concept
 - Keep following a single habit. Not multiple, human can't handle it.
@@ -31,6 +31,8 @@ do not modify any other cell
 ![Screenshot from 2022-08-31 08-51-16](https://user-images.githubusercontent.com/97814789/187563861-6bb9f1f1-48a0-45f9-a32c-62822ffdf37a.png)
 - Select type "web app", set Executed as "Me", set Who has access "Anyone". Then Deploy.
 ![image](https://user-images.githubusercontent.com/97814789/187563825-f06d63ff-a245-464c-bc39-3becb8c68509.png)
+- Warning will be displayed because Google don't trust my code. click "Advanced", and click "name of your script (unsafe)" to allow deploy
+![image](https://user-images.githubusercontent.com/97814789/187573633-7bd7a471-6641-4a92-9130-38705ec4cd68.png)
 - Copy Web App URL  
 ![image](https://user-images.githubusercontent.com/97814789/187564133-209404c7-fdac-4220-bd0e-a31073c40837.png)
 
@@ -39,7 +41,6 @@ do not modify any other cell
 ### 5. Fire Github Workflow
 - Go to Actions tab in your forked repo, and run workflow manually to deploy githabit to Github Pages
 ![Screenshot from 2022-08-31 08-39-41](https://user-images.githubusercontent.com/97814789/187564602-2fd68f3a-6eaa-41d3-85ff-78ae004f6a42.png)
-and run workflow manually
 - Wait until deployment finishes. Once deployed, gh-pages branch should be created.
 
 ### 6. Enable Github Pages
@@ -58,4 +59,9 @@ You should now be able to see Login screen at https://${username}.github.io/gith
 technical details
 - Cell A3 is used as session ID storage.
 - Unfortunately, Google Apps Script cannot get http request headers, meaning githabit frontend can't send session ID as cookie in request headers. Hence githabit sends session ID in post body data. 
+<<<<<<< HEAD
 - session ID is supposed to stored in localStorage not in cookie storage, and it never expires. Not the best practice, but this is because githabit is not security focused. 
+=======
+- session ID is supposed to stored in localStorage not in cookie storage, and it never expires.
+- some requests might fail due to CORS policy enforced by google. If fail, take a time, and come back again. It might work. This is a google thing.
+>>>>>>> 478be5a9dfe50c38e78ff75b68b5dbdf7c5efc0a
