@@ -1,5 +1,8 @@
 {
   "name": "githabit",
   "start_url": "/githabit",
-  "display": "standalone"
+  "display": "standalone",
+  "icons": {
+    "500": "githabit.png"
+  }
 }
