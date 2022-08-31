@@ -3,6 +3,10 @@ githabit is a github styled habit tracker website that anyone can host by utiliz
 
 ![image](https://user-images.githubusercontent.com/97814789/187536466-84ed0391-4ae8-4fac-8aad-6bc2a9f63ad8.png)
 
+## Concept
+- Keep following a single habit. Not multiple, human can't handle it.
+- Just Yay/Nay. "How much" does not matter, doing matters. 
+- Feel the grass
 
 ## How it works
 ![image](https://user-images.githubusercontent.com/97814789/187274225-d46fd408-c731-4e18-b8fe-cfa23a66f862.png)
