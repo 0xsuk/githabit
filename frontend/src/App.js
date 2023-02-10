@@ -55,7 +55,6 @@ function App() {
 
   return (
     <>
-      <h1>githabit</h1>
       <div>
         <p>{habit}</p>
         <button onClick={handleYay}>Yay</button>
