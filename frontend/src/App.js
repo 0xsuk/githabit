@@ -69,12 +69,12 @@ function App() {
         }}
         classForValue={(value) => {
           if (!value) {
-            return "color-empty";
-          }
-          if (value.count > 0) {
             return "color-filled";
           }
-          return "color-empty";
+          if (value.count > 0) {
+            return "color-empty";
+          }
+          return "color-filled";
         }}
       />
     </>
